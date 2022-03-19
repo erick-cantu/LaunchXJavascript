@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <img src="./img/titulo.png" id="titulo">
+    <img src="./img/pokedex.png" alt="Pokedex" id="pokedex">
+    <img id="pokeImgF" width="150px">
+    <img id="pokeImgB" width="150px">
+
+    <input type="text" placeholder="pikachu" id="pokeName" name="pokeName" autofocus>
+    <button onclick="fetchPokemon()" id="pokeButton"></button>
+
+    <div id="nombrePokemon">
+        <label id="pokeNumber"></label>
+        <label id="pokeGuion">-</label>
+        <label id="pokeNombre"></label>
+    </div>
+
+
+    <img id="pokeImgOficial" width="400px">
+
+    <label id="pokeTipo"></label>
+    
+    <label id="pokeMovimientos"></label>
+
+    <label id="pokeAltura"></label>
+    <label id="pokePeso"></label>
+
+    <div id="estadisticas">
+        <label id="pokeEstadisticas1">hp: </label>
+        <label id="pokeEstadisticas1V"></label>
+        <br>
+
+        <label id="pokeEstadisticas2">attack: </label>
+        <label id="pokeEstadisticas2V"></label>
+        <br>
+
+        <label id="pokeEstadisticas3">defense: </label>
+        <label id="pokeEstadisticas3V"></label>
+        <br>
+    
+        <label id="pokeEstadisticas4">special-attack:</label>
+        <label id="pokeEstadisticas4V"></label>
+        <br>
+    
+        <label id="pokeEstadisticas5">special-defense: </label>
+        <label id="pokeEstadisticas5V"></label>
+        <br>
+    
+        <label id="pokeEstadisticas6">speed: </label>
+        <label id="pokeEstadisticas6V"></label>
+        <br>
+    </div>
+
+
+
+
+</body>
+<footer>
+    <script src="./js/pokedex.js"></script>
+</footer>
+</html>

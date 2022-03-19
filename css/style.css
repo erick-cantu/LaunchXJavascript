@@ -1,0 +1,142 @@
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#pokedex{
+    position: absolute;
+    top: 138px;
+    left: 157px;
+    width: 978px;
+}
+
+
+#pokeImgF{
+    position: absolute;
+    top: 390px;
+    left: 251px;
+}
+
+#pokeImgB{
+    position: absolute;
+    top: 390px;
+    left: 401px;
+}
+
+
+#pokeName{
+    position: absolute;
+    top: 317px;
+    left: 241px;
+    border: 0px;
+    height: 22px;
+    width: 315px;
+}
+
+button{
+    border-radius: 5px;
+    position: absolute;
+    top: 721px;
+    left: 271px;
+    width: 161px;
+    height: 80px;
+    color: white;
+    background: #47bc47;
+    cursor: pointer;
+    outline: none;
+}
+
+#nombrePokemon{
+    position: absolute;
+    top: 597px;
+    left: 363px;
+}
+
+
+#pokeImgOficial{
+    position: absolute;
+    width: 400px;
+    right: 230px;
+    top: 400px;
+    border: 0px;
+    border-color: white;
+}
+
+
+#pokeTipo{
+    border-radius: 5px;
+    top: 357px;
+    left: 793px;
+    position: absolute;
+    background: white;
+    padding: 5px;
+    height: 18px;
+    width: 250px;
+}
+
+#pokeEstadisticas{
+    border-radius: 5px;
+    top: 529px;
+    left: 750px;
+    position: absolute;
+    background: white;
+    padding: 5px;
+    height: 78px;
+    width: 301px;
+}
+
+#pokeMovimientos{
+    border-radius: 5px;
+    top: 389px;
+    left: 750px;
+    position: absolute;
+    background: white;
+    padding: 5px;
+    height: 101px;
+    width: 295px;
+}
+
+#pokeAltura{
+    border-radius: 5px;
+    top: 749px;
+    left: 804px;
+    position: absolute;
+    background: white;
+    padding: 5px;
+    width: 65px;
+    height: 18px;
+}
+
+#pokePeso{
+    border-radius: 5px;
+    top: 749px;
+    left: 963px;
+    position: absolute;
+    background: white;
+    padding: 5px;
+    width: 65px;
+    height: 18px;
+}
+
+#estadisticas{
+    position: absolute;
+    top: 511px;
+    left: 743px;
+    background: #31a7f1;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 290px;
+}
+
+#estadisticas label{
+    float: left;
+}
+
+
+#titulo{
+    width: 313px;
+    left: 516px;
+    position: absolute;
+}
